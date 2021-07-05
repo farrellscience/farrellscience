@@ -1,0 +1,280 @@
+<!--
+In order to validate your HTML code, click on the arrow at the top right of this window. If you have some problems with validation, you can have a look here  : https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wild Circus</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body id="mypage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-------------------------- Header ------------------------------------------------------------------------------->
+   <img class="w3-image" src="https://i.ytimg.com/vi/N8bHCHl8X_0/maxresdefault.jpg"  alt="Architecture" width="1500" height="800">
+  <nav class="navbar navbar-default navbar-fixed-top">
+
+    <div class="container">
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#performance">Performances</a></li>
+                <li><a href="#title-about">ABOUT</a></li>
+                <li><a href="#price_section">Prices</a></li>
+                <li><a href="#title_contact">Contact</a></li>
+
+            </ul>
+            <div id="Arm">wildcodeschool</div>
+        </div>
+    </div>
+</nav>
+
+
+
+ <!------------------- performance section ------------------------------->
+ <section>
+      <div class="container-fluid text-center bbody " id="b1">
+        <!-- title for Performances  -->
+         <div id="title-performance" class="row text-center col-md-3 col-sm-3 col-xs-3"><b>
+           Performances
+           </b>
+        </div>
+
+
+        <div id="performance" class="container-fluid text-center body col-md-11 col-sm-11">
+          <br>
+          <div class="row w3-center bg-grund col-sm-12 col-md-12">
+           <!-- performance 1 (first card) -->
+
+            <div class="card  w3-center col-md-3 col-sm-4 ">
+                <div row="row">
+                    <div class="header">
+                        <h4><b class="text-center">Laugh</b></h4>
+                    </div>
+                    <div row="row">
+                      As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.
+                    </div>
+                </div>
+            </div>
+           <!-- performance 2 -->
+
+            <div class="performance_card card col-md-3 col-sm-4">
+
+                <div class="row">
+                    <div class="header">
+                        <h4><b class="text-center">Dream</b></h4>
+                        <p></p>
+                    </div>
+                  <div class="body">
+                    Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.
+                    </div>
+                </div>
+            </div>
+           <!-- performance 3 -->
+
+            <div class="performance_card card col-md-3 col-sm-3">
+                 <div class="row">
+                    <div class="header">
+                        <h4><b class="text-center">Marvel at</b></h4>
+                        <p></p>
+                    </div>
+                    <div class="body">
+                    Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <br>
+        <br>
+
+    </div>
+    </section>
+
+
+
+
+    <!---------about--------------------------------------------------------------------->
+    <section >
+      <div  class="title1" class="container text-center  slideanim">
+        <div class="row col-md-3">
+            <div id="title-about" class=" text-center title-t1 col-md-9 col-sm-9 col-xs-9"> About </div>
+        </div>
+    </div>
+    <div id="about" class="cantainer-fluid text-center col-md-11 col-sm-11 slideanim">
+        <div class="row text-center col-sm-9 col-md-9">
+            <br>
+            <h1></h1>
+            <p>type text in here. type text in here. type text in here. type text in here.
+                type text in here. type text in here. type text in here. type text in here. type text in here.
+            </p>
+            <p>type text in here. type text in here. type text in here. type text in here.
+                type text in here. type text in here. type text in here. type text in here. type text in here.
+            </p>
+            <p>type text in here. type text in here. type text in here. type text in here.
+                type text in here. type text in here. type text in here. type text in here. type text in here.
+            </p>
+            <p>type text in here. type text in here. type text in here. type text in here.
+                type text in here. type text in here. type text in here. type text in here. type text in here.
+            </p>
+            <p>type text in here. type text in here. type text in here. type text in here.
+                type text in here. type text in here. type text in here. type text in here. type text in here.
+            </p>
+        </div>
+        <br>
+        <br>
+    </div>
+    </section>
+
+    <hr/>
+    <!-----------   Prices    -------->
+    <section class='slideanim'>
+     <div id="title-price" class="container text-center ">
+        <div class="row  ">
+            <div id="title-price1" class=" text-center col-md-3 col-sm-3 col-xs-3">Price</div>
+        </div>
+    </div>
+    <div id="price_section"   class="cantainer-fluid col-md-12 col-sm-12">
+        <div class="row ">
+            <br>
+            <div class="row" style="position: relative;left:2%;">
+                  <label for="Search_class" class="visuallyhidden">Search_class: </label>
+                  <input type="text" name="Search_class" id="search">
+                  <button class="btn btn-default " type="submit">Serch</button>
+              </div>
+            <br>
+            <div class="price_card col-sm-4 col-md-4 ">
+                <ul class="price">
+                    <div class="header header_price col-md-11 col-sm-11 " >
+                        <img src="https://articles-images.sftcdn.net/wp-content/uploads/sites/3/2016/05/brow5bigstock-Programming-Works-105486218.jpg" class="pic">
+
+                    </div>
+                    <li class="grey">web develop</li>
+                    <li >5 month</li>
+                    <li >CSS, HTML, Javascript</li>
+                    <li>5,000 £</li>
+                    <li class="grey"><a href="#" class=" button">Register</a></li>
+                </ul>
+            </div>
+            <div class="price_card col-sm-4 col-md-4 ">
+                <ul class="price">
+                    <div class="header header_price" >
+                        <img src="https://tr2.cbsistatic.com/hub/i/r/2013/09/26/6f3c216b-e33b-4e19-86c1-2d329b5ba04a/resize/770x/80960d81c2d4caa162f210cd12f71dec/9-26_data_science_team.jpg" class="pic">
+
+                    </div>
+                    <li class="grey">Data analysis</li>
+                    <li >3 month</li>
+                    <li>python, database, MySQL</li>
+
+                    <li>3,000 £</li>
+                    <li class="grey"><a href="#" class=" button">Register</a></li>
+                </ul>
+            </div>
+            <div class="price_card col-sm-4 col-md-4 ">
+                <ul class="price">
+                    <div class="header header_price" >
+                        <img src="https://undabot.com/wp-content/uploads/2017/04/job_ios-Copy-of-DSC_0882.jpg" class="pic">
+
+                    </div>
+                    <li class="grey">ios developer</li>
+                    <li >4 month</li>
+                    <li>swift</li>
+
+                    <li>4,000 £</li>
+                    <li class="grey"><a href="#" class=" button">Register</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    </section>
+
+    <hr/>
+    <!---------- Contact Us------------------->
+    <section class='slideanim'>
+      <div id="title_contact" class="title2 container text-center col-md-11 col-sm-11">
+        <div class="row col-md-3 ">
+            <div id="w" class="title_contact2 text-center col-md-12 col-sm-3 col-xs-7"> Contact</div>
+        </div>
+    </div>
+    <div id="contact" class="container-fluid bg-grey col-md-11 col-sm-11">
+
+        <div class="contact_card row">
+            <div class="col-sm-5">
+                <p>Contact us and we'll get back to you within 24 hours.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Lisbon, portugal</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +351 937423254</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> farhadsh1992@gmail.com</p>
+            </div>
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+              <input type="checkbox" name="subscribe" id="subscribe">
+              <label for="subscribe"> Subscribe to newsletter</label><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+
+                    </div>
+
+
+                </div>
+                <div class="row">
+                  <label for="search" class="visuallyhidden">Search: </label>
+                  <input type="text" name="search" id="search" aria-labelledby="btn_search">
+                  <button id="btn_search"class="btn btn-default " type="submit">Send</button>
+              </div>
+              <br>
+              <div class="row" style="position: relative;left:1%;">
+                  <label for="email" class="visuallyhidden" >email: </label>
+                  <input type="text" name="email" id="search" aria-labelledby="send_email">
+                  <button id="send_email"lass="btn btn-default " type="submit">Send</button>
+              </div>
+              <br>
+              <div class="row">
+                  <label for="phone" class="visuallyhidden">phone: </label>
+                  <input type="text" name="phone" id="search" aria-labelledby="btn-phnoe">
+                  <button id='btn_phnoe'class="btn btn-default " type="submit">Send</button>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+
+ <!-- Footer -->
+<footer class="w3-center w3-white w3-padding-64 w3-opacity w3-hover-opacity-off foot">
+  <a id="top" href="#title-performance" class="w3-button w3-red " ><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="">
+    <i class="">Wild Circus by [ Farhad Shadmand ]</i><br>
+    <i class="">France-IOI: [ <a href="https://help.codecademy.com" title="CodeCademy" target="_blank">CodeCademy</a>]</i>       <br>
+    <i class="">SoloLearn: [ <a href="https://www.sololearn.com" title="https://www.sololearn.com" target="_blank">SoloLearn</a> ]</i><br>
+    <i class="">Wild Code School</i><br>
+    <i class="">[25 Jan 2019]</i><br>
+    <i class=""></i>
+  </div>
+
+</footer>
+
+
+</body>
